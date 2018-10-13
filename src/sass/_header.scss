@@ -1,0 +1,53 @@
+.header {
+	display: flex;
+	align-items: center;
+
+	background-image: url('../img/header-bg.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center center;
+	background-size: cover;
+
+	&__content {
+		padding-top: 150px;
+		padding-bottom: 100px;
+
+		text-align: center;
+		color: $white;
+
+		@media (min-width: 768px) {
+			padding-top: 300px;
+			padding-bottom: 200px;
+		}
+	}
+
+	&__text {
+		margin-bottom: 25px;
+
+		@include serif-font;
+		font-size: 1.375rem;
+		line-height: 1.375rem;
+		font-style: italic;
+
+		@media (min-width: 768px) {
+			font-size: 2.5rem;
+			line-height: 2.5rem;
+		}
+	}
+
+	&__title {
+		margin-bottom: 25px;
+
+		font-size: 3.125rem;
+		line-height: 3.125rem;
+		font-weight: 700;
+		text-transform: uppercase;
+
+		@media (min-width: 768px) {
+			margin-bottom: 50px;
+
+			font-size: 4.6875rem;
+			line-height: 4.6875rem;
+		}
+	}
+}

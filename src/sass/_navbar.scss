@@ -1,0 +1,75 @@
+.navbar {
+	background-color: $black;
+
+	@media (min-width: 992px) {
+		padding: 25px 1em;
+
+		background-color: transparent;
+
+		transition: all 0.3s;
+	}
+	
+	.navbar-brand {
+		padding: 0.3125rem 0;
+
+		@include script-font;
+		color: $primary;
+
+		&:hover,
+		&:focus {
+			color: darken($primary, 10%);
+		}
+
+		@media (min-width: 992px) {
+			font-size: 1.75rem;
+
+			transition: all 0.2s;
+		}
+	}
+
+	.navbar-nav {
+		.nav-link {
+			padding: 0.75em 0;
+
+			@include heading-font;
+			font-size: 90%;
+			text-transform: uppercase;
+			color: $white;
+			letter-spacing: 1px;
+
+			&:hover,
+			&:focus {
+				color: $primary;
+			}
+
+			@media (min-width: 992px) {
+				padding: 0.6em 1em;
+			}
+		}
+	}
+
+	.navbar-toggler {
+		padding: 13px;
+
+		@include heading-font;
+		font-size: 0.75rem;
+		text-transform: uppercase;
+		color: $white;
+
+		background-color: $primary;
+		border: none;
+	}
+
+	&.navbar-shrink {
+		@media (min-width: 992px) {
+			padding: 8px 1em;
+
+			background-color: $black;
+
+			.navbar-brand {
+				font-size: 1.25rem;
+			}
+		}
+	}
+}
+

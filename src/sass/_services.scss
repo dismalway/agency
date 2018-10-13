@@ -1,0 +1,18 @@
+.services {
+	.fa-circle {
+		color: $primary;
+	}
+
+	&__heading {
+		margin: 15px 0;
+
+		font-size: 1.5rem;
+		line-height: 1.8rem;
+		font-weight: 700;
+	}
+
+	&__description {
+		line-height: 1.75rem;
+		color: $muted;
+	}
+}

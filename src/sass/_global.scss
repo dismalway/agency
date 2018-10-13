@@ -1,0 +1,41 @@
+body, 
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	@include body-font;
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+	@include heading-font;
+}
+
+.section-py {
+	padding: 150px 0;
+}
+
+.section-title {
+	margin-bottom: 15px;
+
+	font-size: 2.5rem;
+	line-height: 2.5rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: $black;
+}
+
+.section-text {
+	margin-bottom: 75px;
+
+	@include serif-font;
+	font-style: italic;
+	font-weight: 400;
+	color: $muted;
+}

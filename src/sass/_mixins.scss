@@ -1,0 +1,15 @@
+@mixin body-font {
+	font-family: 'Roboto Slab', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+@mixin script-font {
+	font-family: 'Kaushan Script', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+@mixin serif-font {
+	font-family: 'Droid Serif', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+@mixin heading-font {
+	font-family: 'Montserrat', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
