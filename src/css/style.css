@@ -315,3 +315,166 @@ h6 {
             transform: rotate(-45deg); }
   .portfolio-modal__close:hover {
     opacity: .3; }
+
+.about__row:nth-child(even) .about__wrapper {
+  margin-left: 0; }
+  @media (min-width: 768px) {
+    .about__row:nth-child(even) .about__wrapper {
+      margin-left: 33px; } }
+  @media (min-width: 992px) {
+    .about__row:nth-child(even) .about__wrapper {
+      margin-left: 12px; } }
+  @media (min-width: 1200px) {
+    .about__row:nth-child(even) .about__wrapper {
+      margin-left: 85px; } }
+
+.about__row:nth-child(even) .about__info {
+  order: 1;
+  margin-right: 20px;
+  margin-left: 20px; }
+  @media (min-width: 768px) {
+    .about__row:nth-child(even) .about__info {
+      order: 0;
+      margin-right: 32px;
+      margin-left: 0;
+      text-align: right; } }
+  @media (min-width: 992px) {
+    .about__row:nth-child(even) .about__info {
+      margin-right: 28px; } }
+  @media (min-width: 1200px) {
+    .about__row:nth-child(even) .about__info {
+      margin-right: 35px; } }
+
+.about__row:nth-child(odd) .about__wrapper {
+  margin-right: 0; }
+  @media (min-width: 768px) {
+    .about__row:nth-child(odd) .about__wrapper {
+      justify-content: flex-end;
+      margin-right: 33px; } }
+  @media (min-width: 992px) {
+    .about__row:nth-child(odd) .about__wrapper {
+      margin-right: 12px; } }
+  @media (min-width: 1200px) {
+    .about__row:nth-child(odd) .about__wrapper {
+      margin-right: 85px; } }
+
+.about__row:nth-child(odd) .about__info {
+  order: 1;
+  margin-left: 20px; }
+  @media (min-width: 768px) {
+    .about__row:nth-child(odd) .about__info {
+      margin-left: 32px; } }
+  @media (min-width: 992px) {
+    .about__row:nth-child(odd) .about__info {
+      margin-left: 28px; } }
+  @media (min-width: 1200px) {
+    .about__row:nth-child(odd) .about__info {
+      margin-left: 35px; } }
+
+.about__wrapper {
+  display: flex;
+  margin-bottom: 50px; }
+  @media (min-width: 768px) {
+    .about__wrapper {
+      margin-bottom: 120px; } }
+
+.about__wrapper--end {
+  margin-bottom: 0; }
+
+.about__info {
+  width: 350px;
+  max-width: 350px; }
+  @media (min-width: 768px) {
+    .about__info {
+      width: 230px;
+      max-width: 230px; } }
+  @media (min-width: 992px) {
+    .about__info {
+      width: 350px;
+      max-width: 350px; } }
+
+.about__description {
+  margin: 0;
+  line-height: 28px;
+  color: #6c757d; }
+
+.about__heading {
+  font-size: 24px;
+  font-weight: 700; }
+
+.about img {
+  display: block;
+  width: 80px;
+  height: 80px;
+  border: 7px solid #e9ecef;
+  border-radius: 100px; }
+  @media (min-width: 768px) {
+    .about img {
+      width: 100px;
+      height: 100px; } }
+  @media (min-width: 992px) {
+    .about img {
+      width: 150px;
+      height: 150px; } }
+  @media (min-width: 1200px) {
+    .about img {
+      width: 170px;
+      height: 170px; } }
+
+.about__end {
+  display: flex;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  background-color: #fed136;
+  border: 7px solid #e9ecef;
+  border-radius: 100px; }
+  @media (min-width: 768px) {
+    .about__end {
+      width: 100px;
+      height: 100px; } }
+  @media (min-width: 992px) {
+    .about__end {
+      width: 150px;
+      height: 150px; } }
+  @media (min-width: 1200px) {
+    .about__end {
+      width: 170px;
+      height: 170px; } }
+
+.about__end-text {
+  min-width: 40px;
+  margin: 0 13px;
+  font-family: 'Montserrat', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 10px;
+  line-height: 14px;
+  font-weight: 700;
+  color: #ffffff; }
+  @media (min-width: 768px) {
+    .about__end-text {
+      margin: 0 15px;
+      font-size: 13px;
+      line-height: 18px; } }
+  @media (min-width: 992px) {
+    .about__end-text {
+      margin: 0 30px;
+      font-size: 18px;
+      line-height: 26px; } }
+
+.about__image {
+  position: relative; }
+  .about__image::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    display: block;
+    width: 2px;
+    height: calc(100% + 50px);
+    margin: 0 auto;
+    background-color: #e9ecef; }
+    @media (min-width: 768px) {
+      .about__image::before {
+        height: calc(100% + 120px); } }
