@@ -478,3 +478,64 @@ h6 {
     @media (min-width: 768px) {
       .about__image::before {
         height: calc(100% + 120px); } }
+
+.team {
+  background-color: #f8f9fa; }
+  .team__employee {
+    margin: 0;
+    margin-top: 25px;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    font-weight: 700; }
+  .team__post {
+    margin: 0;
+    margin-bottom: 16px;
+    line-height: 1.75rem;
+    color: #6c757d; }
+  .team__photo {
+    width: 225px;
+    height: 225px;
+    border: 7px solid #ffffff;
+    border-radius: 50%; }
+  .team__description {
+    margin-bottom: 16px;
+    line-height: 28px;
+    color: #6c757d; }
+  .team__info {
+    margin-bottom: 50px; }
+
+@media (min-width: 768px) {
+  .row-team {
+    display: flex;
+    flex-wrap: nowrap; } }
+
+.social-button__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  color: #ffffff;
+  background-color: #212529;
+  border-radius: 50%;
+  transition: all 0.3s; }
+  .social-button__link:not(:last-child) {
+    margin-right: 12px; }
+  .social-button__link:hover, .social-button__link:focus {
+    color: #ffffff;
+    text-decoration: none; }
+  .social-button__link:hover {
+    background-color: #fed136; }
+  @media (min-width: 576px) {
+    .social-button__link:last-child {
+      margin-right: 12px; } }
+  @media (min-width: 768px) {
+    .social-button__link:last-child {
+      margin-right: 0; } }
+
+.social-button .fab {
+  font-size: 1.25rem; }
+
+@media (min-width: 576px) {
+  .social-button {
+    flex-wrap: wrap; } }

@@ -1,0 +1,46 @@
+.team {
+	background-color: $light;
+
+	&__employee {
+		margin: 0;
+		margin-top: 25px;
+
+		font-size: 1.5rem;
+		line-height: 1.8rem;
+		font-weight: 700;
+	}
+
+	&__post {
+		margin: 0;
+		margin-bottom: 16px;
+
+		line-height: 1.75rem;
+		color: $muted;
+	}
+
+	&__photo {
+		width: 225px;
+		height: 225px;
+
+		border: 7px solid $white;
+		border-radius: 50%;
+	}
+
+	&__description {
+		margin-bottom: 16px;
+
+		line-height: 28px;
+		color: $muted;
+	}
+
+	&__info {
+		margin-bottom: 50px;
+	}
+}
+
+.row-team {
+	@media (min-width: 768px) {
+		display: flex;
+		flex-wrap: nowrap;
+	}
+}
