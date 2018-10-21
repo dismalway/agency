@@ -539,3 +539,10 @@ h6 {
 @media (min-width: 576px) {
   .social-button {
     flex-wrap: wrap; } }
+
+.partners__link {
+  display: flex;
+  justify-content: center; }
+
+.partners__logo {
+  display: block; }
