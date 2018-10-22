@@ -1,0 +1,48 @@
+.contact {
+	background-image: url("../img/map-image.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+  background-color: $black;
+
+  &__title {
+  	color: $white;
+  }
+}
+
+.contact-form {
+	&__text {
+		color: $danger;
+	}
+
+	&__input,
+	&__memo {	
+		width: 100%;
+		padding: 20px;
+
+		border: 1px solid $white;
+		border-radius: 5px;
+
+	  outline: none;
+
+		&::placeholder {
+			@include heading-font;
+			font-weight: 700;
+			color: lighten($muted, 35%);
+		}
+
+		&:focus {
+			border-color: $primary;
+		}
+	}
+
+	&__input {
+		margin-bottom: 10px;
+	}
+
+	&__memo {
+		height: 250px;
+	}
+}
+

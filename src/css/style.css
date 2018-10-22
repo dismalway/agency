@@ -546,3 +546,42 @@ h6 {
 
 .partners__logo {
   display: block; }
+
+.contact {
+  background-image: url("../img/map-image.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: #212529; }
+  .contact__title {
+    color: #ffffff; }
+
+.contact-form__text {
+  color: #dc3545; }
+
+.contact-form__input, .contact-form__memo {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  outline: none; }
+  .contact-form__input::-webkit-input-placeholder, .contact-form__memo::-webkit-input-placeholder {
+    font-family: 'Montserrat', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 700;
+    color: #caced1; }
+  .contact-form__input::-ms-input-placeholder, .contact-form__memo::-ms-input-placeholder {
+    font-family: 'Montserrat', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 700;
+    color: #caced1; }
+  .contact-form__input::placeholder, .contact-form__memo::placeholder {
+    font-family: 'Montserrat', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 700;
+    color: #caced1; }
+  .contact-form__input:focus, .contact-form__memo:focus {
+    border-color: #fed136; }
+
+.contact-form__input {
+  margin-bottom: 10px; }
+
+.contact-form__memo {
+  height: 250px; }
