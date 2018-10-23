@@ -17,6 +17,10 @@ h6 {
 	@include heading-font;
 }
 
+*::selection {
+	background-color: $primary;
+}
+
 .section-py {
 	padding: 150px 0;
 }

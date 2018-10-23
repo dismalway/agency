@@ -15,6 +15,21 @@ function navbarCollapse() {
 navbarCollapse();
 window.onscroll = navbarCollapse;
 
+$(document).ready(function(){
+  $("#mainNav").on("click","a", function (event) {
+      event.preventDefault();
+      var id = $(this).attr('href'),
+          top = $(id).offset().top;
+      $('body,html').animate({scrollTop: top}, 1100);
+  });
+});
+
+//Navbar scrollspy
+$('body').scrollspy({
+  target: '#mainNav',
+  offset: 57
+});
+
 //Hide navbar when modal open
 $('.portfolio-modal').on('show.bs.modal', function(e) {
 	$('.navbar').addClass('d-none');

@@ -80,6 +80,12 @@ h5,
 h6 {
   font-family: 'Montserrat', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; }
 
+*::-moz-selection {
+  background-color: #fed136; }
+
+*::selection {
+  background-color: #fed136; }
+
 .section-py {
   padding: 150px 0; }
 
@@ -123,6 +129,8 @@ h6 {
     color: #ffffff;
     letter-spacing: 1px; }
     .navbar .navbar-nav .nav-link:hover, .navbar .navbar-nav .nav-link:focus {
+      color: #fed136; }
+    .navbar .navbar-nav .nav-link.active {
       color: #fed136; }
     @media (min-width: 992px) {
       .navbar .navbar-nav .nav-link {
@@ -585,3 +593,18 @@ h6 {
 
 .contact-form__memo {
   height: 250px; }
+
+.footer {
+  padding: 25px 0; }
+  .footer__copyright, .footer__rules {
+    font-family: 'Montserrat', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    font-size: 14.4px;
+    line-height: 40px; }
+  .footer__link {
+    color: #fed136; }
+    .footer__link:first-child {
+      margin-right: 8px; }
+    .footer__link:hover, .footer__link:focus {
+      color: #fed136; }
+    .footer__link:hover {
+      text-decoration: underline; }
